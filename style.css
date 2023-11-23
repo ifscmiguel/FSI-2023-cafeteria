@@ -27,6 +27,8 @@ div{
 
 .nav{
     background-color: #f78764;
+    display: flex;
+    justify-content: space-around;
 }
 
 .rodape{
