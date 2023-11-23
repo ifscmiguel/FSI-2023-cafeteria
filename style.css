@@ -1,3 +1,39 @@
 body{
-    background-color: greenyellow;
+    background-color: #603808;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+div{
+    border:1px solid black;
+    /* margem interna */
+    padding: 30px;
+}
+
+.container{
+    max-width: 900px;
+    margin:auto; /* centraliza a própria div */
+    padding:0;
+}
+
+/* chama a div com class="topo" */
+.topo{
+    background-color: #c38e70;
+    text-align: center;
+}
+
+.principal{
+    background-color: #f3d5b5;
+}
+
+.nav{
+    background-color: #f78764;
+}
+
+.rodape{
+    background-color: #f78764;
+    text-align: center;
+}
+
+/* coolors.co/ */
+/* adobe colors */
+/* paletton */
