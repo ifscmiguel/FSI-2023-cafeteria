@@ -16,17 +16,67 @@
         <!-- menu de navegação -->
         <div class="nav">
             <a href="index.html">Início</a>
-            <a href="cardapio.html">Cardápio</a>
-            <a href="sobre.html">Sobre nós</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#sobre">Sobre nós</a>
         </div>
 
         <!-- conteúdo principal -->
         <div class="principal">
             <h1>Cafeteria IFSC</h1>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quis natus cum autem nulla, ipsa totam quidem explicabo iste sit sed enim. Veritatis accusantium voluptates non, neque provident aliquid soluta?</p>
+            <p>A Cafeteria Universitária do IFSC é um espaço acolhedor e aconchegante, projetado para atender às necessidades dos estudantes, professores e funcionários. Localizada no coração do campus, a cafeteria oferece uma variedade de opções de refeições rápidas, lanches saudáveis, bebidas quentes e frias, e sobremesas deliciosas. Nosso cardápio é cuidadosamente elaborado para garantir refeições balanceadas e saborosas a preços acessíveis. </p>
+            <p>Além disso, priorizamos a utilização de ingredientes frescos e locais sempre que possível. Com um ambiente agradável e atendimento de qualidade, a Cafeteria Universitária do IFSC é o local ideal para uma pausa entre as aulas, um encontro com os amigos ou uma refeição rápida e conveniente. </p>
+            <p>Esperamos por você!</p>
+        </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus vero fugiat unde assumenda natus, quasi excepturi odit, pariatur facilis nesciunt ut quo obcaecati fuga error voluptatem laborum ab. Molestiae, cupiditate?</p>
+        <!-- cardápio -->
+        <div class="cardapio" id="cardapio">
+            <h1>Cardápio</h1>
+            <!-- 
+                para fazer uma tabela, passos:
+                1 - tag/fechar tag <table>
+                2 - <tr> para cada linha (table row)
+                3 - <td> para cada célula (table data)
+             -->
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Tamanho</th>
+                    <th>Preço</th>
+                </tr>                
+                <tr>
+                    <td rowspan="2">Café expresso</td>
+                    <td>P - 120ml</td>
+                    <td>R$ 2,50</td>
+                </tr>
+                <tr>
+                    <td>M - 180ml</td>    
+                    <td>R$ 3,00</td>
+                </tr>
+                <tr>
+                    <td>Capuccino</td>
+                    <td>180ml</td>
+                    <td>R$ 6,00</td>
+                </tr>
+                <tr>
+                    <td>Mocca</td>
+                    <td>180ml</td>
+                    <td>R$ 6,00</td>
+                </tr>
+                <tr>
+                    <td>Água sem gás</td>
+                    <td>500ml</td>
+                    <td>R$ 2,50</td>
+                </tr>
+            </table> 
+        </div>
+
+        <!-- sobre nós -->
+        <div class="sobre" id="sobre">
+            <h1>Sobre Nós</h1>
+
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/tD2tECmRbTQ?si=niM_hTZ3Um8ErcyX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
         </div>
 
         <!-- rodapé -->
@@ -34,6 +84,6 @@
             <p>Site experimental CST FSI 2023</p>
             <p>Contato: 48 99999 9999</p>
         </div>
-    </div>
+    </div> <!-- fim do div.container  -->
 </body>
 </html>

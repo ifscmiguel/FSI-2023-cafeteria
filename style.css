@@ -1,10 +1,13 @@
+:root{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #603808;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div{
-    border:1px solid black;
     /* margem interna */
     padding: 30px;
 }
@@ -12,12 +15,15 @@ div{
 .container{
     max-width: 900px;
     margin:auto; /* centraliza a própria div */
-    padding:0;
+    background-color: #f78764;
 }
 
 /* chama a div com class="topo" */
 .topo{
-    background-color: #c38e70;
+    text-align: center;
+}
+
+h1{
     text-align: center;
 }
 
@@ -25,8 +31,16 @@ div{
     background-color: #f3d5b5;
 }
 
-.nav{
-    background-color: #f78764;
+.cardapio{
+    background-color: #dde5b6;
+}
+
+.sobre{
+    background-color: #f3d5b5;
+}
+
+.nav{    
+    background-color: #d4a276;
     display: flex;
     justify-content: space-around;
 }
@@ -39,3 +53,21 @@ div{
 /* coolors.co/ */
 /* adobe colors */
 /* paletton */
+
+/* tabela */
+table{
+    width:100%;
+    border:1px solid #688068;
+    border-collapse: collapse;
+}
+
+td{
+    padding:20px;
+    border:1px solid #738b73;
+}
+
+th{
+    background-color: #738b73;
+    color:#FFFFFF;
+    padding:20px;
+}
